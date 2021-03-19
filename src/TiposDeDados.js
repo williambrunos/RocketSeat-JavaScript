@@ -10,6 +10,8 @@
     a escrita de expressões regulares no JavaScript 
     => interpolação de dados
 
+    => Case sensitive => imutáveis => a alteração em uma string acarreta na criação
+    de uma nova com o valor atualizado e no apagamento da antiga da memória
 */
 
 var nome = 'William'
