@@ -60,6 +60,7 @@ console.log(`Existe x depois do bloco? ${x}`)
     console.log("Y existe no bloco? "+y)
     console.log("Z existe no bloo? "+z)
 }
+{
 
 /*
      Nomeação de variáveis:
