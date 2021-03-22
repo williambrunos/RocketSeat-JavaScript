@@ -82,3 +82,13 @@ console.log(`Existe x depois do bloco? ${x}`)
      => Escrever em inglês
      => Nome que descreva a utilização da variável
 */
+
+// Podemos ainda converter um tipo de dado em inteiro ou float com as funções parseInt(args) ou parseFloat(args), sendo args os argumentos, dados que desejamos converter para o tipo correspondente
+
+let integer = 3 
+console.log("Tipo do integer: "+typeof integer)
+console.log("Integer convertido em float: "+parseFloat(integer).toFixed(2))
+// A função toFixed(n), sendo n um inteiro, trunca o número decimal em n casas após a vírgula(ou ponto)
+let floating = 4.6
+console.log("Tipo de floating: "+typeof floating)
+console.log("Floating convertido em inteiro: "+parseInt(floating))
