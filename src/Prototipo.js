@@ -1,3 +1,4 @@
+/*  
     * Prototype: Ao criarmos um objeto em js, ele irá herdar vários métodos e atributos de um outro objeto já criado previamente,
     chamado de protótipo, ou prototype, por meio de herança.
 
