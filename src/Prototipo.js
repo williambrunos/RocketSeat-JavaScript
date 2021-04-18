@@ -74,3 +74,44 @@ console.log(myNumber.valueOf())
 
 let mySecondArray = new Array(1, 2, 'b', 'banana')
 console.log(mySecondArray)
+
+// Agora veremos como transformar uma String em um array:
+
+let myString = "Olá, eu sou o William!"
+
+// Chamamos a wrapper class "Array" e invocamos seu método "from" que espera como argumento uma String
+console.log(Array.from(myString))
+
+// Manipulação de arrays:
+
+let techs = ["html", "css", "js"]
+
+// Adicionar um item ao fim do array => Método push()
+techs.push("react")
+techs.push("vue") 
+console.log(techs)
+
+// Adicionar um item no começo do array => Método unshift()
+techs.unshift("sql")
+console.log(techs)
+
+// Remover um item do fim do array => Método pop()
+techs.pop()
+console.log(techs)
+
+// Remover um item do começo do array => Método shift()
+techs.shift()
+console.log(techs)
+
+// Pegar apenas alguns elementos do array => Método slice(índice inicial, índice final + 1)
+console.log(techs.slice(1, 3))
+
+// Remover mais de um elemento do array => Método splice(índice inicial, quantidade de elementos a serem retirados a partir do inicial)
+
+console.log(techs.splice(1, 2))
+
+// Encontrar a posição do elemento em um array => Método indexOf(element) => Retorna -1 se não encontrar element
+
+let index = techs.indexOf("html")
+techs.splice(index, 1)
+console.log(techs)
