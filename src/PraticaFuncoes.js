@@ -1,4 +1,4 @@
-// Constructor Function recieving three parameters, name, id and amount
+// Constructor Function receiving three parameters, name, id and amount
 function ContaBancaria(name, id, amount) {
     this.name = name 
     this.id = id 
@@ -33,11 +33,11 @@ function ContaBancaria(name, id, amount) {
 let arrayContas = []
 
 const contaWilliam = new ContaBancaria("William", 2345, 2000)
-const contaYann = new ContaBancaria("Yann", 1357, 4000)
+const contaYan = new ContaBancaria("Yan", 1357, 4000)
 const contaMarcos = new ContaBancaria("Marcos", 4680, 3500)
 
 arrayContas.push(contaWilliam)
-arrayContas.push(contaYann)
+arrayContas.push(contaYan)
 arrayContas.push(contaMarcos)
 
 for(let i = 0; i < 3; i++){
