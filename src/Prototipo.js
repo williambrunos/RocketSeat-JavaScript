@@ -55,7 +55,7 @@ console.log(frase.search("banana"))
 // O método includes() retorna um booleano equivalente a se a String inclui ou não outra String
 console.log(frase.includes("Olá"))
 
-// Entenendo como manipular uma String em um array e vice-versa
+// Entendendo como manipular uma String em um array e vice-versa
 
 let stringTeste = "Testando a separação de String"
 console.log(stringTeste.split(' '))
