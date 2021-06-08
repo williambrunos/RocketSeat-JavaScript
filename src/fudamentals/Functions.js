@@ -33,7 +33,7 @@ sayHello()
 // a variável name é criada com a string "william" como conteúdo
 sayHello(name)
 
-// Para funções declradas explicitamente, podemos criar variáveis com seus nomes livremente
+// Para funções declaradas explicitamente, podemos criar variáveis com seus nomes livremente
 var sayHello = "Hello!"
 console.log(sayHello)
 
@@ -42,7 +42,7 @@ console.log(sayHello)
 // Parameters => Local Variables
 const sum = function(num1, num2){
     // O retorno é importante para que o resultado processado seja utilizado da forma que o programador bem entender
-    // Sem a palavra chave "return" => Função retorn "undefined"
+    // Sem a palavra chave "return" => Função retorna "undefined"
     return num1 + num2
 }
 

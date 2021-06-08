@@ -83,7 +83,7 @@ console.log(calculator(3, '5', 4));
 
 function sayMyName(name) {
   if(name == '') {
-    throw 'Name is not defined';
+    throw new Error('Name is not defined');
   } else {
     console.log(`Hello ${name}`);
   }
